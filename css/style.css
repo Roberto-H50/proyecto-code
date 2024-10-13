@@ -312,8 +312,31 @@ footer div img {
      height: 350px;
 }
 
+/* contacto */
+
+.form{
+    margin: 5px;
+    padding-left: 5px;
+    
+}
 
 
+.form-contacto input {
+     width: 200px;
+     height: 50px;
+    
+     }
+     
+     
+ .form-correo input{
+    width: 250px;
+    height: 40px;
+   }
+   .form-consulta  textarea{
+    width: 380px;
+    height: 400px;
+   }
+ 
 
 /* INICIO MEDIA QUERI INDEX-y-NEURO*/
 @media screen and (max-width:1630px) {
@@ -353,13 +376,7 @@ footer div img {
     }
 }
 @media screen and (max-width: 1200px) {
-    .trastornos {
-       /* width: 100%;
-        text-align: center;
-        background-color: #00ffffab;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 500px 500px 500px;*/
+    .trastornos {      
         column-gap: 3px;
         row-gap: 3px;
     
@@ -574,6 +591,11 @@ footer div img {
     width: 95%;
     height: 90%;
 }
+.maps{
+    width: 100%;
+    height: 350px;
+}
+    
 
 }
 @media screen and (max-width:610px) {
@@ -666,7 +688,15 @@ footer div img {
 
     }
 }
-* ---MEDIA QUERI NEURO--*/
+@media screen and (max-width:410px) {
+    .form-consulta  textarea{
+        width: 300px;
+        height: 400px;
+       }
+     
+}
+
+/* ---MEDIA QUERI NEURO--*/
 
 
 
